@@ -1,0 +1,11 @@
+<form action="#" (ngSubmit)="onEdit()">
+  <div class="wrap-item-edit">
+    <input class="input-edit" type="text" name="name" placeholder="_" [(ngModel)]="name" />
+    <button type="submit" class="but-edit but-edit-l" [disabled]="!name">
+      ok
+    </button>
+    <button type="submit" class="but-edit but-edit-r" (click)="onCancel()">
+      =
+    </button>
+  </div>
+</form>

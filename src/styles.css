@@ -1,0 +1,11 @@
+body {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url(../src/app/assets/image/Angular.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}

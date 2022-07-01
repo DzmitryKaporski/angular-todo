@@ -1,0 +1,8 @@
+<h1 class="title">Todo list</h1>
+
+<form class="form" action="#" (ngSubmit)="onCreate()">
+  <input class="input" type="text" name="name" placeholder="Enter event..."
+    onfocus="if (placeholder == 'Enter event...') {placeholder = ''}"
+    onblur="if (placeholder == '') {placeholder = 'Enter event...'}" [(ngModel)]="name" />
+  <button type="submit" class="button" [disabled]="!name">Add</button>
+</form>
